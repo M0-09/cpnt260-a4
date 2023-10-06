@@ -1,0 +1,12 @@
+/* media query to display nav-baar vertically */
+
+@media (max-width: 769px) {
+  .navbar,
+  .main-nav {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 80%;
+	 margin: 0 auto;
+  }
+}
