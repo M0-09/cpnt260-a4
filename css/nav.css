@@ -51,3 +51,6 @@ nav {
 .current {
   background-color: #d8ab82;
 }
+.logo a:hover {
+  color: #718daa;
+}
