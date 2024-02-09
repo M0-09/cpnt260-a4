@@ -15,6 +15,6 @@ Image(s)- Unsplash
 
 # Helpful resource: w3 schools/codepen/coolers.co
 
-# GH repo :
+# GH repo : https://github.com/M0-09/cpnt260-a4
 
-# GH page :
+# GH pages : https://m0-09.github.io/cpnt260-a4/
