@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+}
+
+header {
+ height: 90vh;
+
+ background-image: url(../img/4hands.avif);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100%;
+
+ display: flex;
+}
+
+a {
+  color: whitesmoke;
+}
+
+h2 {
+  margin-top: 5rem;
+  margin-right: 2rem;
+
+  text-align: right;
+
+  color: #34495e;
+}
+
+.hero {
+  font-size: 36px;
+  padding-top: 3.5rem;
+}
+
+/* hides the horizontal scroll-bar */
+body {
+  overflow-x: hidden;
+  background: linear-gradient(0.50turn, #3f87a6, #ebf8e1, #f69d3c);
+  
+}
+
+.card-content {
+	width: 100vw;
+	display: inline-flex;
+	justify-content: space-evenly;
+	margin-top: 20rem;
+}
+
+/* Buttons */
+.card {
+	background-color: #f9d186;
+	padding: 1rem;
+	border-radius: 1.75rem;
+	opacity: 80%;
+	
+}
+  
+.info {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  gap: 1.5rem ;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+p{
+  max-width: 40ch;
+  font-size: 28px;
+  text-align: center;
+}
+
+footer {
+  display: block;
+  border: double black;
+  text-align: center;
+}

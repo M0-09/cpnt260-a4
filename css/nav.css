@@ -1,0 +1,53 @@
+/* list style :none takes out the bullet points.
+    Properties: display and justify-content make the nav bar 
+*/
+
+ul {
+  margin: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: flex-end;
+  flex: auto;
+}
+
+a {
+  color: #34495e;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* text-transform uppercase bc I forgot to write them in uppercase earlier*/
+
+.logo,
+.main-nav a {
+  padding: 10px 15px;
+  display: block;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-nav {
+  color: #34495e;
+  font-size: 1.75em;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+nav {
+  display: flex;
+  flex: auto;
+
+  background-color: rgb(223, 208, 193);
+}
+
+.current {
+  background-color: #d8ab82;
+}
